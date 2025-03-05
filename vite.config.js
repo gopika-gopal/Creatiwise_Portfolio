@@ -1,15 +1,13 @@
-import { defineConfig } from 'vite';
-import rewriteAll from 'vite-plugin-rewrite-all';
-import tailwindcss from 'tailwindcss';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "tailwindcss";
 
 export default defineConfig({
-  plugins: [rewriteAll()],
-  base: '/creatiwise/',
-
+  plugins: [react()], // Use React plugin instead of rewriteAll()
+  base: "/Creatiwise_Portfolio/", // Ensure the correct repo name
   css: {
     postcss: {
       plugins: [tailwindcss()],
     },
   },
 });
-

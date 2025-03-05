@@ -54,24 +54,25 @@ export default function TestimonialsFAQ() {
             <h2 className="text-4xl font-bold mb-10 text-left w-full max-w-6xl flex items-center gap-3">
                 <FaRegStar className="text-xl" />  What they say
             </h2>
-            <div className="max-w-6xl flex flex-col md:flex-row items-start gap-48">
+            <div className="max-w-6xl flex flex-col md:flex-row items-center md:items-start gap-12 md:gap-48">
+  <div className="flex flex-col items-center md:items-start gap-3">
+    <img
+      src={testimonials[currentTestimonial].image}
+      alt={testimonials[currentTestimonial].name}
+      className="w-20 h-20 rounded-full"
+    />
+    <h3 className="text-xl font-semibold">{testimonials[currentTestimonial].name}</h3>
+    <p className="text-gray-400 text-lg">{testimonials[currentTestimonial].company}</p>
+  </div>
 
-                <div className="flex flex-col items-start gap-3">
-                    <img
-                        src={testimonials[currentTestimonial].image}
-                        alt={testimonials[currentTestimonial].name}
-                        className="w-20 h-20 rounded-full"
-                    />
-                    <h3 className="text-xl font-semibold">{testimonials[currentTestimonial].name}</h3>
-                    <p className="text-gray-400 text-lg">{testimonials[currentTestimonial].company}</p>
-                </div>
+  <div className="flex-1 self-start text-center md:text-left">
+    <p className="text-2xl italic leading-relaxed max-w-2xl">
+      "{testimonials[currentTestimonial].text}"
+    </p>
+  </div>
+</div>
 
-                <div className="flex-1 self-start">
-                    <p className="text-2xl italic text-left leading-relaxed max-w-2xl">
-                        "{testimonials[currentTestimonial].text}"
-                    </p>
-                </div>
-            </div>
+
 
             <div className="flex gap-6 mt-8">
                 <button onClick={prevTestimonial} className="p-3 bg-gray-700 rounded-full hover:bg-gray-600 transition">
