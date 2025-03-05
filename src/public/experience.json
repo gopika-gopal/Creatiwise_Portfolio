@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "role": "Lead Product Designer",
+      "company": "Fortknox",
+      "date": "Mar 2022 - Oct 2023"
+    },
+    {
+      "id": 2,
+      "role": "Intern Designer",
+      "company": "OmniSafe",
+      "date": "Mar 2022 - Oct 2023"
+    },
+    {
+      "id": 3,
+      "role": "UI Designer",
+      "company": "Doradesign",
+      "date": "Mar 2022 - Oct 2023"
+    },
+    {
+      "id": 4,
+      "role": "Frontend Developer",
+      "company": "OpacityAuthor",
+      "date": "Mar 2022 - Oct 2023"
+    }
+  ]
+  

@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Analysis Application",
+      "description": "With a user-centered approach, the goal was to create an intuitive interface for enhanced financial intelligence.",
+      "tags": ["FIGMA", "UX"],
+      "image": "/images/cs1.png"
+    },
+    {
+      "id": 2,
+      "title": "Fortknox Application",
+      "description": "With a user-centered approach, the goal was to create an intuitive interface for enhanced financial intelligence.",
+      "tags": ["MOBILE", "WEB"],
+      "image": "/images/cs2.png"
+    },
+    {
+      "id": 3,
+      "title": "Zenocide Application",
+      "description": "With a user-centered approach, the goal was to create an intuitive interface for enhanced financial intelligence.",
+      "tags": ["APP", "WEB"],
+      "image": "/images/cs3.png"
+    }
+  ]
+  
